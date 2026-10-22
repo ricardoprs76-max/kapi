@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidad · Kapi</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<main>
+  <header>
+    <p><a href="./">← Kapi</a></p>
+    <h1>Política de Privacidad</h1>
+    <p class="lema">Vigente desde el 14 de octubre de 2026</p>
+  </header>
+
+  <section>
+    <p>Esta política explica qué datos usa la aplicación Kapi para Android, para qué los usa y qué puedes hacer con ellos. El responsable de la aplicación es su desarrollador, a quien puedes escribir a <a href="mailto:ricardoprs76@gmail.com">ricardoprs76@gmail.com</a>.</p>
+  </section>
+
+  <section>
+    <h2>1. Lo esencial</h2>
+    <ul>
+      <li>Tus cuentas, movimientos, presupuestos y demás datos financieros se guardan en tu teléfono y en la base de datos de Kapi en Firebase (Google Cloud), ligados a tu cuenta de Google, para que no los pierdas y puedas usarlos en otro teléfono.</li>
+      <li>Solo tú puedes leer tus datos. Una cuenta compartida solo la ven las personas que tú invitas por su correo.</li>
+      <li>Nada se guarda en tu Google Drive ni se envía por archivos, WhatsApp o correo.</li>
+      <li>No vendemos tus datos.</li>
+      <li>Algunas funciones usan servicios de terceros (Google y, si tú lo decides, Anthropic). Abajo se explica cuáles y qué reciben.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>2. Datos de tu cuenta de Google</h2>
+    <p>Para entrar a la aplicación inicias sesión con tu cuenta de Google. Ese ingreso lo hace Google; la aplicación nunca ve tu contraseña. Recibimos tu nombre, tu correo electrónico y un identificador de usuario, que se guardan en Firebase Authentication (un servicio de Google) para reconocerte cuando vuelvas a entrar.</p>
+  </section>
+
+  <section>
+    <h2>3. Datos financieros que tú registras</h2>
+    <p>Todo lo que registras (cuentas, ingresos, gastos, categorías, presupuestos, gastos fijos, metas, activos, deudas y las notas del asistente) se guarda en el almacenamiento privado de la aplicación en tu teléfono y se sincroniza con la base de datos de Kapi (Cloud Firestore de Firebase, un servicio de Google con servidores en Estados Unidos), en un espacio ligado a tu identificador de usuario. Las reglas de seguridad de esa base de datos solo permiten que tu propia sesión lea o modifique ese espacio. Si en un mismo teléfono entra otra persona con su cuenta, tiene su propio espacio y no ve tus datos.</p>
+  </section>
+
+  <section>
+    <h2>4. Cuentas compartidas (opcional)</h2>
+    <p>Si compartes una cuenta con otra persona, escribes su correo de Google. Esa cuenta (su nombre, saldo inicial y movimientos) se guarda en la base de datos de Kapi junto con tu correo, como quien la creó, y el correo de cada persona invitada. Solo esas personas pueden verla y modificarla; el resto de tus datos no se comparte. Cada una verá en la aplicación el correo de quien la creó y de quienes colaboran. No se envía ningún archivo ni correo.</p>
+  </section>
+
+  <section>
+    <h2>5. Fotos, voz y asistente</h2>
+    <ul>
+      <li><strong>Fotos de facturas.</strong> La aplicación usa la cámara o una foto que elijas para leer el texto de la factura. Esa lectura se hace en el teléfono.</li>
+      <li><strong>Dictado por voz.</strong> Se usa el reconocimiento de voz de tu teléfono, que funciona según la configuración y las políticas del proveedor de ese servicio (normalmente Google).</li>
+      <li><strong>Asistente con inteligencia artificial (opcional).</strong> Por defecto el asistente funciona dentro del teléfono. Si tú escribes en Ajustes tu propia clave de Google Gemini o de Claude (Anthropic), la foto de la factura, la frase dictada o tu pregunta, junto con un resumen de tus datos financieros, se envían a ese proveedor para obtener la respuesta, bajo las condiciones de tu cuenta con él. Tu clave se guarda cifrada en el teléfono.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. Publicidad y compras</h2>
+    <p>La versión gratuita muestra anuncios de Google AdMob. Para mostrarlos y medirlos, Google puede usar datos del dispositivo, como el identificador de publicidad, la dirección IP y datos de uso de la aplicación. Puedes restablecer o eliminar tu identificador de publicidad en los ajustes de tu teléfono. Más información en <a href="https://policies.google.com/technologies/partner-sites?hl=es">cómo usa Google la información de las apps que utilizan sus servicios</a>.</p>
+    <p>Las compras de Kapi Premium las procesa Google Play. La aplicación solo recibe la confirmación de la compra; no recibe los datos de tu medio de pago.</p>
+  </section>
+
+  <section>
+    <h2>7. Permisos del teléfono</h2>
+    <ul>
+      <li><strong>Internet:</strong> ingreso con Google, guardar y sincronizar tus datos en Firebase, asistente con clave propia, anuncios y compras.</li>
+      <li><strong>Micrófono:</strong> solo mientras dictas un gasto o un mensaje al asistente.</li>
+      <li><strong>Cámara y fotos:</strong> solo cuando escaneas una factura.</li>
+      <li><strong>Notificaciones:</strong> recordatorios de pagos, si los activas.</li>
+      <li><strong>Huella, rostro o PIN:</strong> el bloqueo lo hace el teléfono; la aplicación no recibe tus datos biométricos.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>8. Con quién se comparten los datos</h2>
+    <p>Solo con los servicios mencionados y para lo descrito: Google (Firebase Authentication y Cloud Firestore, AdMob, Google Play y, si usas tu clave, Gemini) y Anthropic (solo si usas tu clave de Claude). También con las personas con quienes tú decidas compartir una cuenta. No entregamos tus datos a nadie más, salvo que una autoridad competente lo exija conforme a la ley.</p>
+  </section>
+
+  <section>
+    <h2>9. Cuánto tiempo se conservan y cómo borrarlos</h2>
+    <ul>
+      <li><strong>Datos en el teléfono:</strong> hasta que los borres o desinstales la aplicación.</li>
+      <li><strong>Datos en la base de datos de Kapi y tu registro de usuario (nombre y correo):</strong> mientras uses la aplicación. Para eliminarlos, escribe a <a href="mailto:ricardoprs76@gmail.com">ricardoprs76@gmail.com</a> desde el correo con el que entras y los borraremos en un plazo máximo de 15 días hábiles. Las cuentas que otra persona compartió contigo siguen siendo de esa persona.</li>
+      <li>También puedes quitarle a la aplicación el acceso a tu cuenta en <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>10. Tus derechos</h2>
+    <p>Puedes conocer, actualizar, rectificar y pedir que se supriman tus datos personales, y revocar la autorización que diste para tratarlos, de acuerdo con la Ley 1581 de 2012 de Colombia y las normas que la reglamentan. Para ejercerlos, escribe al correo de contacto.</p>
+  </section>
+
+  <section>
+    <h2>11. Seguridad</h2>
+    <p>Los datos viajan cifrados hacia los servicios de Google y Anthropic, y Google los guarda cifrados en sus servidores. Las claves que escribes en la aplicación se guardan cifradas en el teléfono, y puedes proteger la aplicación con el bloqueo del dispositivo. Ningún sistema es totalmente seguro; cuida el acceso a tu teléfono y a tu cuenta de Google.</p>
+  </section>
+
+  <section>
+    <h2>12. Menores de edad</h2>
+    <p>La aplicación no está dirigida a menores de 13 años y no recoge sus datos a sabiendas.</p>
+  </section>
+
+  <section>
+    <h2>13. Cambios a esta política</h2>
+    <p>Si esta política cambia, publicaremos aquí la nueva versión con su fecha. Si el cambio es importante, lo avisaremos en la aplicación.</p>
+  </section>
+
+  <footer>
+    <p>Contacto: <a href="mailto:ricardoprs76@gmail.com">ricardoprs76@gmail.com</a></p>
+  </footer>
+</main>
+</body>
+</html>

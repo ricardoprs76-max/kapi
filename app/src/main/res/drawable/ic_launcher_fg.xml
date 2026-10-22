@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cubo isométrico con una moneda encima -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+  <path android:fillColor="#B79CFF" android:pathData="M54,38 L76,49 L54,60 L32,49 Z" />
+  <path android:fillColor="#8B6CF0" android:pathData="M32,49 L54,60 L54,80 L32,69 Z" />
+  <path android:fillColor="#6747C7" android:pathData="M76,49 L54,60 L54,80 L76,69 Z" />
+  <path android:fillColor="#E0A520" android:pathData="M43,43 L43,39 A11,5.5 0 0 0 65,39 L65,43 A11,5.5 0 0 1 43,43 Z" />
+  <path android:fillColor="#FFD257" android:pathData="M43,39 A11,5.5 0 1 0 65,39 A11,5.5 0 1 0 43,39 Z" />
+</vector>

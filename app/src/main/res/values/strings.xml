@@ -1,0 +1,4 @@
+<resources>
+  <string name="app_name">Kapi</string>
+  <string name="widget_description">Tu disponible para gastar y un botón para registrar gastos</string>
+</resources>

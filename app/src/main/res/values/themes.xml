@@ -1,0 +1,9 @@
+<resources>
+  <style name="Theme.Aura" parent="android:Theme.Material.NoActionBar">
+    <item name="android:windowBackground">@color/splash_bg</item>
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="android:navigationBarColor">@android:color/transparent</item>
+  </style>
+  <color name="splash_bg">#0D0B14</color>
+  <color name="ic_bg">#1B1530</color>
+</resources>

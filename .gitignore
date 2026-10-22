@@ -1,0 +1,22 @@
+# Compilación
+build/
+app/build/
+.gradle/
+.kotlin/
+*.apk
+*.aab
+build-log.txt
+*.log
+
+# Archivos locales y privados (no subir)
+local.properties
+google-services.json
+*.jks
+*.keystore
+.env
+.env.*
+**/claves*.txt
+node_modules/
+.firebase/
+.idea/
+*.iml
