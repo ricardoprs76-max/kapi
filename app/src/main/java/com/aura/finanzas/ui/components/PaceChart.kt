@@ -59,7 +59,7 @@ import kotlin.math.roundToInt
 class Pace(val current: List<Double>, val average: List<Double>?, val months: Int, val month: YearMonth)
 
 /**
- * Gráfico del ritmo del mes (como el de Money Lover): la línea de color es lo acumulado este mes hasta hoy, con su
+ * Gráfico del ritmo del mes: la línea de color es lo acumulado este mes hasta hoy, con su
  * relleno; la gris, la media acumulada de los meses anteriores para todo el mes. Arriba, una etiqueta con el día
  * elegido (hoy al abrir; se puede tocar o arrastrar para ver otro día) y lo que llevaba la media a esa altura.
  */
